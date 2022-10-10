@@ -41,7 +41,7 @@ pip install .
 It is recommended to use ['scanpy'](https://scanpy.readthedocs.io/en/stable/index.html) package. 
 
 ```
-import scPrisma.algorithms as algo
+import scPrisma_torch.algorithms_torch as algo
 import scanpy as sc
 import numpy as np
 import torch
