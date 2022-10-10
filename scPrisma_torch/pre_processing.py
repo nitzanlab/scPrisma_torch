@@ -13,7 +13,7 @@ from sklearn.preprocessing import normalize
 import copy
 from sklearn.feature_selection import VarianceThreshold
 
-from scPrisma.spectrum_gen import *
+from scPrisma_torch.spectrum_gen import *
 
 
 def cell_normalization(V):
