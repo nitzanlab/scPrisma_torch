@@ -1,9 +1,9 @@
 from setuptools import setup
 
 setup(
-    name='scPrisma',
+    name='scPrisma_torch',
     version='1.0',
-    packages=['scPrisma'],
+    packages=['scPrisma_torch'],
     url='',
     license='',
     author='jonathankarin',
@@ -11,6 +11,6 @@ setup(
     description='scPrisma: inference, filtering and enhancement of periodic signals in single-cell data using spectral template matching ',
     python_requires='>=3',
     install_requires=[
-        'numpy', 'scanpy', 'numba', 'pandas', 'scikit-learn', 'scipy', 'seaborn','matplotlib','sklearn']
+        'numpy', 'scanpy', 'numba', 'pandas', 'scikit-learn', 'scipy', 'seaborn','matplotlib','sklearn','torch']
 
 )
