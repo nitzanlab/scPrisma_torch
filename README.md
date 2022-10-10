@@ -1,7 +1,7 @@
-# scPrisma
+# scPrisma_torch
 scPrisma is a spectral analysis method, for pseudotime reconstruction, informative genes inference, filtering, and enhancement of underlying cyclic signals
 <h2> For reproducibility of scPrisma manuscript, please refer to:<br /> https://github.com/nitzanlab/scPrisma_notebooks</h2>
-
+<h1> This repository contains boosted version of scPrisma, which support calculations using GPU</h1>
 <br />
 
 ![workflow](https://github.com/nitzanlab/scPrisma/blob/main/workflow.png?raw=true)
