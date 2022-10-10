@@ -5,8 +5,7 @@ import numpy as np
 from numpy import random
 from scipy.optimize.linesearch import line_search
 
-from pre_processing import *
-from visualizations import *
+from scPrisma_torch.pre_processing import *
 from numba import jit
 
 @jit(nopython=True, parallel=True)
